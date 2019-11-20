@@ -1,0 +1,2 @@
+tellraw @a[tag=!staff] {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n","color":"dark_gray"}
+tellraw @s ["",{"text":"[Debug]: ","color":"yellow","bold":true},"Obfuscated recent chat activity"]

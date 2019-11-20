@@ -1,0 +1,22 @@
+{
+    "parent":"gamerules:player/root",
+    "display":{
+        "icon": {
+            "item": "minecraft:red_bed"
+          },
+          "title": {
+            "text": "Player Sleep"
+          },
+          "description": {
+            "text": "Skip long nights"
+          },
+          "show_toast": false,
+          "announce_to_chat": false,
+          "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

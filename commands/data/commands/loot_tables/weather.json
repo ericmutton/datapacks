@@ -1,0 +1,49 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sugar",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{weather:\"clear\"}",
+							"conditions": [
+								{
+									"condition": "weather_check",
+									"raining": false,
+									"thundering": false
+								}
+							]
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{weather:\"raining\"}",
+							"conditions": [
+								{
+									"condition": "weather_check",
+									"raining": true,
+									"thundering": false
+								}
+							]
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{weather:\"thunderstorming\"}",
+							"conditions": [
+								{
+									"condition": "weather_check",
+									"raining": true,
+									"thundering": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

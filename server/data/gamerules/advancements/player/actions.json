@@ -1,0 +1,22 @@
+{
+    "parent":"gamerules:player/root",
+    "display":{
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+          },
+          "title": {
+            "text": "Player Actions"
+          },
+          "description": {
+            "text": "Player actions"
+          },
+          "show_toast": false,
+          "announce_to_chat": false,
+          "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

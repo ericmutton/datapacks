@@ -1,0 +1,2 @@
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:written_book",Count:1b,tag:{contacts:true}}}
+execute in minecraft:overworld as @e[type=item,nbt={Item:{id:"minecraft:written_book",Count:1b,tag:{contacts:true}}},sort=nearest,limit=1] run data modify entity @s Item set from block 65 0 65 Book

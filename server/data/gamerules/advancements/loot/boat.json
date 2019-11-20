@@ -1,0 +1,22 @@
+{
+    "parent":"gamerules:loot/root",
+    "display":{
+        "icon": {
+            "item": "minecraft:oak_boat"
+          },
+          "title": {
+            "text": "Spawn Boat"
+          },
+          "description": {
+            "text": "First join boat loot"
+          },
+          "show_toast": false,
+          "announce_to_chat": false,
+          "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

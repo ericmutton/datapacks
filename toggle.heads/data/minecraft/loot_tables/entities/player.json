@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:fill_player_head",
+                            "entity": "this"
+                        },
+                        {
+                            "function": "set_lore",
+                            "entity": "killer",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "Beheaded by "
+                                    },
+                                    {
+                                        "selector": "@s"
+                                    }
+                                ]
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "damage_source_properties",
+                            "predicate": {
+                                "source_entity": {
+                                    "type": "minecraft:player"
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:player_head"
+                }
+            ]
+        }
+    ]
+}

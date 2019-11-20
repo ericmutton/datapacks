@@ -1,0 +1,22 @@
+{
+    "parent":"gamerules:root",
+    "display":{
+        "icon": {
+            "item": "minecraft:chest"
+          },
+          "title": {
+            "text": "Loot"
+          },
+          "description": {
+            "text": "Loot gamerules"
+          },
+          "show_toast": false,
+          "announce_to_chat": false,
+          "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

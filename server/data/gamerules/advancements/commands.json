@@ -1,0 +1,22 @@
+{
+    "parent":"gamerules:root",
+    "display":{
+        "icon": {
+            "item": "minecraft:command_block"
+          },
+          "title": {
+            "text": "Commands"
+          },
+          "description": {
+            "text": "Custom commands"
+          },
+          "show_toast": false,
+          "announce_to_chat": false,
+          "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

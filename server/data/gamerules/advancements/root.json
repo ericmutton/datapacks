@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": {
+            "text":"Gamerules"
+        },
+        "description": {
+            "text":"Gamerule States"
+        },
+        "icon": {
+            "item":"minecraft:writable_book"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/andesite.png"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

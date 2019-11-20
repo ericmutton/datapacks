@@ -1,0 +1,22 @@
+{
+    "parent":"gamerules:root",
+    "display":{
+        "icon": {
+            "item": "minecraft:player_head"
+          },
+          "title": {
+            "text": "Player"
+          },
+          "description": {
+            "text": "Player gamerules"
+          },
+          "show_toast": false,
+          "announce_to_chat": false,
+          "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
