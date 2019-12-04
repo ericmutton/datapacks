@@ -1,6 +1,7 @@
 #properties
-scoreboard players reset @s player.hasLeft
-scoreboard players reset @s player.isDead
+execute if score @s player.hasLeft matches 1.. run function player:join/welcome
+scoreboard players set @s player.hasLeft 0
+scoreboard players set @s player.hasDied 0
 #experience
 execute store result score @s player.levels run experience query @s levels
 execute store result score @s player.points run experience query @s points

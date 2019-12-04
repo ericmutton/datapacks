@@ -1,0 +1,16 @@
+execute if entity @s[x_rotation=337.6..22.4] run scoreboard players set #current rotation.x 0
+execute if entity @s[x_rotation=292.6..337.5] run scoreboard players set #current rotation.x -45
+execute if entity @s[x_rotation=247.6..292.5] run scoreboard players set #current rotation.x -90
+execute if entity @s[x_rotation=202.6..247.5] run scoreboard players set #current rotation.x -135
+execute if entity @s[x_rotation=157.5..202.5] run scoreboard players set #current rotation.x 180
+execute if entity @s[x_rotation=112.5..157.4] run scoreboard players set #current rotation.x 135
+execute if entity @s[x_rotation=67.5..112.5] run scoreboard players set #current rotation.x 90
+execute if entity @s[x_rotation=22.5..67.5] run scoreboard players set #current rotation.x 45
+execute if entity @s[y_rotation=337.6..22.4] run scoreboard players set #current rotation.y 0
+execute if entity @s[y_rotation=292.6..337.5] run scoreboard players set #current rotation.y -45
+execute if entity @s[y_rotation=247.6..292.5] run scoreboard players set #current rotation.y -90
+execute if entity @s[y_rotation=202.6..247.5] run scoreboard players set #current rotation.y -135
+execute if entity @s[y_rotation=157.5..202.5] run scoreboard players set #current rotation.y 180
+execute if entity @s[y_rotation=112.5..157.4] run scoreboard players set #current rotation.y 135
+execute if entity @s[y_rotation=67.5..112.5] run scoreboard players set #current rotation.y 90
+execute if entity @s[y_rotation=22.5..67.5] run scoreboard players set #current rotation.y 45

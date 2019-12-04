@@ -4,8 +4,8 @@ scoreboard players operation @s dimension = #current dimension
 scoreboard players operation @s anchor.PosX = #current player.PosX
 scoreboard players operation @s anchor.PosY = #current player.PosY
 scoreboard players operation @s anchor.PosZ = #current player.PosZ
-execute store result entity @s Rotation[1] float 1 run scoreboard players get #current anchor.RotX
-execute store result entity @s Rotation[0] float 1 run scoreboard players get #current anchor.RotY
+execute store result entity @s Rotation[1] float 1 run scoreboard players get #current rotation.x
+execute store result entity @s Rotation[0] float 1 run scoreboard players get #current rotation.y
 
 data merge entity @s[scores={dimension=1}] {CustomName:'"end"'}
 data merge entity @s[scores={dimension=0}] {CustomName:'"overworld"'}

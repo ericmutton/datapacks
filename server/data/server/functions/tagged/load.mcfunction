@@ -18,6 +18,7 @@ scoreboard players set #24000 int 24000
 scoreboard players set #100000 int 100000
 
 ## TRIGGERS ##
+
 scoreboard objectives add commands.run dummy "Commands Ran"
 scoreboard objectives add commands.delay dummy "Command Delay"
 #ADMINISTRATIVE#

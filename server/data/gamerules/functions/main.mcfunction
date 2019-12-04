@@ -14,8 +14,8 @@ execute if score $sleep gamerules matches 1 if entity @s[tag=player,nbt=!{SleepT
 execute if score $enderpearl gamerules matches 0 run kill @e[type=ender_pearl]
 execute if score $creeper gamerules matches 1 run function gamerules:mobs/creeper/explosions/enable/run
 execute if score $creeper gamerules matches 0 run function gamerules:mobs/creeper/explosions/disable/run
-execute if score $bombs gamerules matches 0 run function gamerules:tools/explosions/disable/damage/run
 execute if score $bombs gamerules matches 1 run function gamerules:tools/explosions/enable/damage/run
+execute if score $bombs gamerules matches 0 run function gamerules:tools/explosions/disable/damage/run
 execute if score $firework gamerules matches 0 run data merge entity @e[type=firework_rocket,tag=!implodes,limit=1] {Tags:["implodes"],ExplosionRadius:0}
 execute if score $firework gamerules matches 1 as @e[type=firework_rocket,tag=implodes,limit=1] run function gamerules:tools/firework/damage/explode
 execute if score $commands gamerules matches 0 run function player:triggers/reset

@@ -19,8 +19,8 @@ scoreboard objectives add team.exists dummy
 #join
 scoreboard objectives add player.count dummy "Player Count"
 scoreboard objectives add player.id dummy "Player IDs"
-scoreboard objectives add player.hasLeft minecraft.custom:minecraft.leave_game
-scoreboard objectives add player.isDead deathCount "Death Status"
+scoreboard objectives add player.hasLeft minecraft.custom:minecraft.leave_game "Leave status"
+scoreboard objectives add player.hasDied deathCount "Death Status"
 #position
 scoreboard objectives add dimension dummy "Dimension"
 scoreboard objectives add player.PosX dummy "X Position"
@@ -31,8 +31,8 @@ scoreboard objectives add homes.dummy dummy
 scoreboard objectives add anchor.PosX dummy "X Position"
 scoreboard objectives add anchor.PosY dummy "Y Position"
 scoreboard objectives add anchor.PosZ dummy "Z Position"
-scoreboard objectives add anchor.RotX dummy "X Rotation"
-scoreboard objectives add anchor.RotY dummy "Y Rotation"
+scoreboard objectives add rotation.x dummy "X Rotation"
+scoreboard objectives add rotation.y dummy "Y Rotation"
 scoreboard objectives add anchor.num dummy "Home Number"
 scoreboard objectives add anchor.id dummy "Home ID"
 scoreboard objectives add homes.set dummy "Homes Set"

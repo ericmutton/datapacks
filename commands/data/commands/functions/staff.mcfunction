@@ -1,5 +1,6 @@
 function commands:staff/chat/clear/main
 function commands:staff/discord/main
+function commands:staff/spawn/main
 function commands:staff/time/main
 
 function commands:staff/coordinates/main

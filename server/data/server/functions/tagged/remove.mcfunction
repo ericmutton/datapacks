@@ -31,7 +31,7 @@ scoreboard objectives remove int
 scoreboard objectives remove player.count
 scoreboard objectives remove player.id
 scoreboard objectives remove player.hasLeft
-scoreboard objectives remove player.isDead
+scoreboard objectives remove player.hasDied
 #position
 scoreboard objectives remove dimension
 scoreboard objectives remove player.PosX
@@ -42,8 +42,8 @@ scoreboard objectives remove homes.dummy
 scoreboard objectives remove anchor.PosX
 scoreboard objectives remove anchor.PosY
 scoreboard objectives remove anchor.PosZ
-scoreboard objectives remove anchor.RotX
-scoreboard objectives remove anchor.RotY
+scoreboard objectives remove rotation.x
+scoreboard objectives remove rotation.y
 scoreboard objectives remove anchor.num
 scoreboard objectives remove anchor.id
 scoreboard objectives remove homes.set

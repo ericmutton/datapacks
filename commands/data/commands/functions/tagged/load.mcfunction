@@ -16,6 +16,7 @@ scoreboard objectives add help trigger "Help Query"
 scoreboard objectives add vote trigger "Player Votes"
 #warps
 scoreboard objectives add spawn trigger "Warp Spawn"
+scoreboard objectives add server.spawn trigger "Set Spawn"
 scoreboard objectives add spawnpoint trigger "Warp Spawnpoint"
 #homes
 scoreboard objectives add home trigger "Warp Home"
@@ -24,3 +25,6 @@ scoreboard objectives add delhome trigger "Delete Home"
 scoreboard objectives add listhomes trigger "List Homes"
 #mail
 scoreboard objectives add mail trigger "Letter Query"
+
+## DEFAULTS ##
+scoreboard players set #afk.timeout int 6000
