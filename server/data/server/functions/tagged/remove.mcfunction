@@ -34,14 +34,14 @@ scoreboard objectives remove player.hasLeft
 scoreboard objectives remove player.hasDied
 #position
 scoreboard objectives remove dimension
-scoreboard objectives remove player.PosX
-scoreboard objectives remove player.PosY
-scoreboard objectives remove player.PosZ
+scoreboard objectives remove position.x
+scoreboard objectives remove position.y
+scoreboard objectives remove position.z
 #homes
 scoreboard objectives remove homes.dummy
-scoreboard objectives remove anchor.PosX
-scoreboard objectives remove anchor.PosY
-scoreboard objectives remove anchor.PosZ
+scoreboard objectives remove position.x
+scoreboard objectives remove position.y
+scoreboard objectives remove position.z
 scoreboard objectives remove rotation.x
 scoreboard objectives remove rotation.y
 scoreboard objectives remove anchor.num

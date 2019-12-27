@@ -23,14 +23,11 @@ scoreboard objectives add player.hasLeft minecraft.custom:minecraft.leave_game "
 scoreboard objectives add player.hasDied deathCount "Death Status"
 #position
 scoreboard objectives add dimension dummy "Dimension"
-scoreboard objectives add player.PosX dummy "X Position"
-scoreboard objectives add player.PosY dummy "Y Position"
-scoreboard objectives add player.PosZ dummy "Z Position"
+scoreboard objectives add position.x dummy "X Position"
+scoreboard objectives add position.y dummy "Y Position"
+scoreboard objectives add position.z dummy "Z Position"
 #homes
 scoreboard objectives add homes.dummy dummy
-scoreboard objectives add anchor.PosX dummy "X Position"
-scoreboard objectives add anchor.PosY dummy "Y Position"
-scoreboard objectives add anchor.PosZ dummy "Z Position"
 scoreboard objectives add rotation.x dummy "X Rotation"
 scoreboard objectives add rotation.y dummy "Y Rotation"
 scoreboard objectives add anchor.num dummy "Home Number"

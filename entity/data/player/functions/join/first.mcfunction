@@ -11,7 +11,7 @@ summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:written_book",Count:1b,tag:{gui
 execute as @e[type=item,nbt={Item:{id:"minecraft:written_book",Count:1b,tag:{guide:true}}}] run function player:give/guide
 
 #DEFAULTS#
-execute unless score @s homes.max matches 0.. run scoreboard players set @s homes.max 0
+execute unless score @s homes.max matches 0.. run scoreboard players set @s homes.max 1
 execute unless score @s homes.set matches 0.. run scoreboard players set @s homes.set 0
 tag @s add player.sound
 

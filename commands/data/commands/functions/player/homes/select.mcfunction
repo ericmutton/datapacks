@@ -7,4 +7,4 @@ scoreboard players operation #current home = @s home
 
 scoreboard players set #current homes.dummy 1
 scoreboard players operation #current homes.set = @s homes.set
-scoreboard players operation #current homes.set += #1 int
+scoreboard players add #current homes.set 1

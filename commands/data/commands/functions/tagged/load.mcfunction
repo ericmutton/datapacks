@@ -11,8 +11,6 @@ scoreboard objectives add warp.delay trigger "Warp Delay"
 #NORMATIVE#
 scoreboard objectives add player.sound trigger "Custom Sounds"
 scoreboard objectives add afk trigger "Away From Keyboard"
-scoreboard objectives add info trigger "Information Query"
-scoreboard objectives add help trigger "Help Query"
 scoreboard objectives add vote trigger "Player Votes"
 #warps
 scoreboard objectives add spawn trigger "Warp Spawn"

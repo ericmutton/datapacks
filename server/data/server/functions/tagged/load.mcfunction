@@ -39,6 +39,10 @@ scoreboard objectives add gamerule.rockets trigger "Firework Damage"
 scoreboard objectives add gamerule.actions trigger "Player Actions"
 scoreboard objectives add gamerule.heads trigger "Player Heads"
 scoreboard objectives add gamerule.boat trigger "Boat Handouts"
+#NORMATIVE#
+#query
+scoreboard objectives add info trigger "Information Query"
+scoreboard objectives add help trigger "Help Query"
 
 ## DEFAULTS ##
 
