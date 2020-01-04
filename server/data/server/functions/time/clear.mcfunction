@@ -1,3 +1,3 @@
-data remove storage server time.meridiem
-data remove storage server time.minute
-data remove storage server time.hour
+data remove storage minecraft:server time.meridiem
+data remove storage minecraft:server time.minute
+data remove storage minecraft:server time.hour

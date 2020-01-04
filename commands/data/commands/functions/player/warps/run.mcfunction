@@ -2,9 +2,9 @@ tellraw @s[tag=!home,tag=spawn,scores={spawn=2..}] {"text":"Already pending tele
 scoreboard players set @s[tag=spawn,scores={spawn=2..}] spawn 1
 tellraw @s[tag=home,tag=spawn] {"text":"Already pending teleportation request.","color":"red"}
 
-execute unless score current warp.delay matches ..0 unless entity @s[tag=inCombat,tag=!home,tag=!spawn] run function commands:player/warps/delay
+execute unless score #current warp.delay matches ..0 unless entity @s[tag=inCombat,tag=!home,tag=!spawn] run function commands:player/warps/delay
 tellraw @s[tag=inCombat,tag=!inMotion] {"text":"You cannot teleport while in combat.","color":"gray"}
-execute if entity @s[tag=!warp,tag=home,tag=!inMotion,tag=!inCombat] run function commands:player/warps/homes/run
+#execute if entity @s[tag=!warp,tag=home,tag=!inMotion,tag=!inCombat] run function commands:player/warps/homes/run
 tag @s[tag=!warp,tag=!inMotion,tag=!inCombat] add warp
 execute unless entity @s[tag=!inMotion,tag=!inCombat] run tag @s[tag=warp] remove warp
 

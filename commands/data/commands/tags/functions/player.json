@@ -1,0 +1,13 @@
+{
+    "values":[
+        "commands:player/warps/main",
+        "commands:player/homes/main",
+        "commands:player/sound/main",
+        "commands:player/mail/main",
+        "commands:player/afk/main",
+        "commands:query/weather/main",
+        "commands:query/website/main",
+        "commands:query/info/main",
+        "commands:help"
+    ]
+}

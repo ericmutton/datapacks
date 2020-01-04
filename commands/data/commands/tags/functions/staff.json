@@ -1,0 +1,13 @@
+{
+    "values":[
+        "commands:staff/heal/main",
+        "commands:staff/vanish/main",
+        
+        "commands:moderation/chat/clear/main",
+        "commands:configuration/spawn/main",
+
+        "commands:query/coordinates/main",
+        "commands:query/time/main",
+        "commands:query/tps/main"
+    ]
+}

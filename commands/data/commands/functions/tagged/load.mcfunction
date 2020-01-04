@@ -3,7 +3,7 @@
 #ADMINISTRATIVE#
 scoreboard objectives add admin.heal trigger "Heal"
 scoreboard objectives add admin.vanish trigger "Vanish"
-scoreboard objectives add admin.coords trigger "Coordinates"
+scoreboard objectives add query.coords trigger "Coordinates"
 scoreboard objectives add admin.clear trigger "Clear Chat"
 #configuration
 scoreboard objectives add homes.max trigger "Maximum Homes"

@@ -8,7 +8,7 @@ scoreboard players reset @s gamerule.pearls
 
 scoreboard players reset @s admin.clear
 scoreboard players reset @s admin.vanish
-scoreboard players reset @s admin.coords
-scoreboard players reset @s admin.discord
 scoreboard players reset @s admin.heal
-scoreboard players reset @s server.tps
+scoreboard players reset @s query.tps
+scoreboard players reset @s query.coords
+scoreboard players reset @s query.website

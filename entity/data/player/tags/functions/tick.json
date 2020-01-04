@@ -1,0 +1,10 @@
+{
+    "values":[
+        "gamerules:main",
+        "entity:protection/main",
+        "player:actions/main",
+        "player:combat/main",
+        "player:motion",
+        "player:vote/main"
+    ]
+}

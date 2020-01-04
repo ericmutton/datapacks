@@ -1,13 +1,6 @@
-#staff
-scoreboard players reset @s tps
-scoreboard players reset @s heal
-scoreboard players reset @s creeper
-scoreboard players reset @s discord
-scoreboard players reset @s gamerule.rockets
-scoreboard players reset @s admin.clear
-scoreboard players reset @s enderpearl
-scoreboard players reset @s coordinates
-scoreboard players reset @s trident.effects
+scoreboard players reset @s query.website
+scoreboard players reset @s query.coords
+scoreboard players reset @s query.tps
 #player
 scoreboard players reset @s vote
 scoreboard players reset @s home

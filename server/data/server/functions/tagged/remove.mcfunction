@@ -92,13 +92,13 @@ scoreboard objectives remove mail.unread
 scoreboard objectives remove commands.run
 scoreboard objectives remove commands.delay
 #ADMINISTRATIVE#
-scoreboard objectives remove server.tps
-scoreboard objectives remove server.time
-scoreboard objectives remove server.weather
+scoreboard objectives remove query.tps
+scoreboard objectives remove query.time
+scoreboard objectives remove query.weather
 scoreboard objectives remove server.discord
 scoreboard objectives remove admin.heal
 scoreboard objectives remove admin.vanish
-scoreboard objectives remove admin.coords
+scoreboard objectives remove query.coords
 scoreboard objectives remove admin.clear
 #configuration
 scoreboard objectives remove homes.max
@@ -117,7 +117,7 @@ scoreboard objectives remove gamerule.boat
 #NORMATIVE#
 scoreboard objectives remove player.sound
 scoreboard objectives remove afk
-scoreboard objectives remove info
+scoreboard objectives remove query.info
 scoreboard objectives remove help
 scoreboard objectives remove vote
 #warps

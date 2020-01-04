@@ -22,9 +22,9 @@ scoreboard players set #100000 int 100000
 scoreboard objectives add commands.run dummy "Commands Ran"
 scoreboard objectives add commands.delay dummy "Command Delay"
 #ADMINISTRATIVE#
-scoreboard objectives add server.tps trigger "Server Ticks Per Second"
-scoreboard objectives add server.time trigger "Server Time"
-scoreboard objectives add server.weather trigger "Server Weather"
+scoreboard objectives add query.tps trigger "Server Ticks Per Second"
+scoreboard objectives add query.time trigger "Server Time"
+scoreboard objectives add query.weather trigger "Server Weather"
 scoreboard objectives add server.discord trigger "Server Discord"
 #configuration
 scoreboard objectives add time.format trigger "Time Format"
@@ -41,14 +41,14 @@ scoreboard objectives add gamerule.heads trigger "Player Heads"
 scoreboard objectives add gamerule.boat trigger "Boat Handouts"
 #NORMATIVE#
 #query
-scoreboard objectives add info trigger "Information Query"
+scoreboard objectives add query.info trigger "Information Query"
 scoreboard objectives add help trigger "Help Query"
 
 ## DEFAULTS ##
 
-data modify storage server metadata.title set value "Purely Vanilla"
-data modify storage server metadata.website set value "https://discord.gg/QJz5JnG"
-data modify storage server metadata.founder set value "Cyndre76"
+data modify storage minecraft:server metadata.title set value "Purely Vanilla"
+data modify storage minecraft:server metadata.website set value "https://discord.gg/QJz5JnG"
+data modify storage minecraft:server metadata.founder set value "Cyndre76"
 
 #world
 execute positioned 64 0 64 if blocks ~ 1 ~ ~ 1 ~1 ~ 0 ~ all run function server:tagged/world

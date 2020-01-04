@@ -1,0 +1,13 @@
+{
+    "values":[
+        "gamerules:mobs/enderman/main",
+        "gamerules:mobs/creeper/main",
+        "gamerules:player/actions/main",
+        "gamerules:player/tools/main",
+        "gamerules:player/heads/main",
+        "gamerules:player/sleep/main",
+        "gamerules:player/boat/main",
+        "gamerules:commands/main",
+        "gamerules:void/main"
+    ]
+}

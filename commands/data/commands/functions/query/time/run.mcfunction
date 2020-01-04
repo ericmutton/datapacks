@@ -1,0 +1,7 @@
+function server:time/operations
+tellraw @s [{"text":"Today is the ","color":"gray"},{"score":{"name":"#day","objective":"query.time"},"color":"gold"},{"nbt":"text.ordinal","storage":"minecraft:server","color":"gold"}," day."]
+tellraw @s [{"text":"It is currently ","color":"gray"},{"nbt":"time.hour","storage":"minecraft:server","color":"gold"},{"score":{"name":"#hour","objective":"query.time"},"color":"gold"},{"text":":","color":"yellow"},{"nbt":"time.minute","storage":"minecraft:server","color":"gold"},{"score":{"name":"#minute","objective":"query.time"},"color":"gold"},{"nbt":"time.meridiem","storage":"minecraft:server","color":"gold"},"."]
+tellraw @s [{"text":"The current lunar phase is a ","color":"gray"},{"nbt":"status.moonphase","storage":"minecraft:server","color":"gold"},"."]
+tellraw @s [{"text":"The time since epoch is ","color":"gray"},{"score":{"name":"#epoch.year","objective":"query.time"},"color":"gold"},{"nbt":"time.epoch.year","storage":"minecraft:server","color":"gold"},{"score":{"name":"#epoch.month","objective":"query.time"},"color":"gold"},{"nbt":"time.epoch.month","storage":"minecraft:server","color":"gold"},{"score":{"name":"#epoch.day","objective":"query.time"},"color":"gold"},{"nbt":"time.epoch.day","storage":"minecraft:server","color":"gold"},"."]
+data remove storage minecraft:server time
+scoreboard players reset @s query.time
