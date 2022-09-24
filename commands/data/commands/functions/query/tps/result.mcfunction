@@ -15,5 +15,5 @@ execute if score @s query.tps matches 2000 run tellraw @s ["",{"text":"[Debug]: 
 execute if score @s query.tps matches 2001.. run tellraw @s ["",{"text":"[Debug]: ","color":"yellow","bold":true},"Invalid syntax"]
 
 scoreboard players reset @s query.tps
-worldborder set 60000000
+worldborder set 59999968
 tag @s remove tps

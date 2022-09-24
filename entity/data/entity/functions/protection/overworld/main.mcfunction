@@ -6,7 +6,7 @@ tag @s[x=-303,y=40,z=1654,distance=..20] add inRegion
 kill @e[x=-303,y=40,z=1654,distance=..20,tag=!protected]
 
 
-execute if data block -138 66 51 {BurnTime:0s} run replaceitem block -138 66 51 container.1 minecraft:coal{protected:true}
+execute if data block -138 66 51 {BurnTime:0s} run item replace block -138 66 51 container.1 with minecraft:coal{protected:true}
 clear @s minecraft:coal{protected:true}
 
 execute if block -151 69 65 minecraft:cauldron run setblock -151 69 65 minecraft:cauldron[level=3] replace
