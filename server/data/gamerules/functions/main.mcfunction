@@ -1,4 +1,4 @@
-execute if score $void gamerules matches 0 if entity @s[tag=protected,tag=inVoid] run function commands:player/warps/spawn
+execute if score $void gamerules matches 0 if entity @s[tag=protected,tag=inVoid] run function commands:player/warps/spawn/run
 execute if score $actions gamerules matches 1 if entity @s[tag=!spectator,tag=!inVoid,tag=!isDead] run function player:actions/bar
 execute if score $boat gamerules matches 1 at @e[type=minecraft:area_effect_cloud,tag=server.anchor,limit=1] if entity @s[distance=..33] run function player:give/boat
 execute if score $sleep gamerules matches 1 if entity @s[tag=player,nbt=!{SleepTimer:0s}] run function player:sleep/run

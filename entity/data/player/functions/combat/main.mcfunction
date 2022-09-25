@@ -1,5 +1,5 @@
 tag @s remove inCombat
-tag @s[scores={combat.defend=1..}] add inCombat
+tag @s[scores={combat.defend=1..}, tag=!inVoid] add inCombat
 tag @s[scores={combat.offend=1..}] add inCombat
 scoreboard players reset @s combat.defend
 scoreboard players reset @s combat.offend
