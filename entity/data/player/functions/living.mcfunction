@@ -1,5 +1,5 @@
 #properties
-execute if score @s player.hasLeft matches 1.. run function player:join/welcome
+execute if score @s player.hasLeft matches 1.. run function player:actions/join/welcome
 scoreboard players set @s player.hasLeft 0
 scoreboard players set @s player.hasDied 0
 #experience

@@ -5,6 +5,6 @@
         "player:actions/main",
         "player:combat/main",
         "player:motion",
-        "player:vote/main"
+        "player:actions/vote/main"
     ]
 }

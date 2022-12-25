@@ -3,6 +3,7 @@
 		"pack_format":7,
 		"title":"Project Vanilla",
 		"creator":"cyndre",
-		"description":"Datapack that adds functionality found in popular server plugins"
+		"description":"Handles Player Command Triggers",
+		"corequisites":"server,player"
 	}
 }

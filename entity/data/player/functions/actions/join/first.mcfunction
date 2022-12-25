@@ -1,6 +1,6 @@
 scoreboard players operation @s player.id = player.id int
 scoreboard players add player.id int 1
-function player:join/data
+function player:actions/join/data
 
 tellraw @s [{"text":"Welcome, ","color":"yellow"},{"selector":"@s","color":"gold"},", to ",{"nbt":"metadata.title","storage":"minecraft:server","color":"gold"},"!\nTo get started, ",{"text":"Click Here!","bold":true,"clickEvent":{"action":"run_command","value":"/team join player @s"},"color":"gold"}]
 execute at @e[type=minecraft:area_effect_cloud,tag=server.anchor,limit=1] run teleport @s[tag=!staff] ~ ~ ~ 180 0
