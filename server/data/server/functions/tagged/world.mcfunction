@@ -1,3 +1,5 @@
+# DEPRECIATE #
+# Enables server interactions through worldly game mechanics 
 execute store result score #forceloaded gamerules run forceload query 64 64
 execute unless score #forceloaded gamerules matches 0 run forceload add 64 64
 

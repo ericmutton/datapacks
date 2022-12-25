@@ -2,6 +2,7 @@
     "values":[
         "commands:staff/heal/main",
         "commands:staff/vanish/main",
+        "commands:staff/fly/main",
         
         "commands:moderation/chat/clear/main",
         "commands:configuration/spawn/main",

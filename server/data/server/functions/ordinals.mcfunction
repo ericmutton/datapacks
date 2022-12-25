@@ -1,3 +1,4 @@
+# Letter suffixes are an alternative to implementing all ordinal numbers, such as first, second, and so on.
 execute unless score #current int matches 11..13 run scoreboard players operation #current int %= #10 int
 execute if score #current int matches 1 run data modify storage minecraft:server text.ordinal set value "st"
 execute if score #current int matches 2 run data modify storage minecraft:server text.ordinal set value "nd"

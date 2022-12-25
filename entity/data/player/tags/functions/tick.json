@@ -3,8 +3,9 @@
         "gamerules:main",
         "entity:protection/main",
         "player:actions/main",
-        "player:combat/main",
-        "player:motion",
+        "player:actions/combat/main",
+        "player:actions/motion",
+        "player:actions/mail/main",
         "player:actions/vote/main"
     ]
 }
